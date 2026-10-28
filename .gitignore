@@ -1,0 +1,8 @@
+build/
+*.so
+*.a
+*.o
+sim_trace.txt
+jerk_fmu_closed_loop_trace.txt
+live_plot.log
+__pycache__/

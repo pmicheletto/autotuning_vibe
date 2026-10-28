@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+include ("@PACKAGE_targetsFile@")
+
+# fmi4cpp bundles its ZIP/XML dependencies; nothing else to find.
