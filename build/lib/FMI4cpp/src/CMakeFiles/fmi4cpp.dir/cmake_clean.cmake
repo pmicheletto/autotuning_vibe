@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fmi4cpp.dir/__/third_party/pugixml-lite/pugixml.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/__/third_party/pugixml-lite/pugixml.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/__/third_party/tinyzip/tinyzip.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/__/third_party/tinyzip/tinyzip.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_fmu.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_fmu.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_library.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_library.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_slave.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/cs_slave.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/fmi2_library.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/fmi2_library.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/fmu.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/fmu.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_fmu.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_fmu.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_instance.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_instance.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_library.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/me_library.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/enums.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/enums.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_description.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_description.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_description_parser.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_description_parser.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_variables.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/model_variables.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/scalar_variable.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmi2/xml/scalar_variable.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmu_resource.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/fmu_resource.cpp.o.d"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/tools/unzipper.cpp.o"
+  "CMakeFiles/fmi4cpp.dir/fmi4cpp/tools/unzipper.cpp.o.d"
+  "libfmi4cpp.pdb"
+  "libfmi4cpp.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fmi4cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

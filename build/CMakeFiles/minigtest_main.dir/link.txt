@@ -1,0 +1,2 @@
+/usr/bin/ar qc libminigtest_main.a CMakeFiles/minigtest_main.dir/test/support/minigtest/minigtest_main.cpp.o
+/usr/bin/ranlib libminigtest_main.a

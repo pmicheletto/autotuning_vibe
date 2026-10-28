@@ -1,0 +1,5 @@
+if(EXISTS "/workspace/build/sim_unit_tests[1]_tests.cmake")
+  include("/workspace/build/sim_unit_tests[1]_tests.cmake")
+else()
+  add_test(sim_unit_tests_NOT_BUILT sim_unit_tests_NOT_BUILT)
+endif()

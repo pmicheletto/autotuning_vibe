@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/fmi4cpp_third_party_selftest.dir/selftest.cpp.o CMakeFiles/fmi4cpp_third_party_selftest.dir/tinyzip/tinyzip.cpp.o "CMakeFiles/fmi4cpp_third_party_selftest.dir/pugixml-lite/pugixml.cpp.o" -o ../bin/fmi4cpp_third_party_selftest 

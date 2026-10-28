@@ -1,0 +1,7 @@
+add_test([=[JerkFmuClosedLoopTest.WritesJerkTraceMatchesSimTraceControllerPhases]=]  /workspace/build/sim_integration_tests [==[--gtest_filter=JerkFmuClosedLoopTest.WritesJerkTraceMatchesSimTraceControllerPhases]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[JerkFmuClosedLoopTest.WritesJerkTraceMatchesSimTraceControllerPhases]=]  PROPERTIES WORKING_DIRECTORY /workspace/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SimulationTest.SendsUdpMessagesDuringSimulation]=]  /workspace/build/sim_integration_tests [==[--gtest_filter=SimulationTest.SendsUdpMessagesDuringSimulation]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SimulationTest.SendsUdpMessagesDuringSimulation]=]  PROPERTIES WORKING_DIRECTORY /workspace/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[SimulationTest.SimulationWithWelford]=]  /workspace/build/sim_integration_tests [==[--gtest_filter=SimulationTest.SimulationWithWelford]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[SimulationTest.SimulationWithWelford]=]  PROPERTIES WORKING_DIRECTORY /workspace/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  sim_integration_tests_TESTS JerkFmuClosedLoopTest.WritesJerkTraceMatchesSimTraceControllerPhases SimulationTest.SendsUdpMessagesDuringSimulation SimulationTest.SimulationWithWelford)
